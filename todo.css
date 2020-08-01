@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(to top right,red,blue);
+}
+header
+{
+
+}
+.outerDiv
+{
+    height:60vh;
+    width:60vw;
+    background-color:blueviolet;
+    margin:auto; 
+    margin-top:5rem;
+    padding:1rem;
+}
+.inputDiv
+{
+    height:20%;
+    width:100%;
+    background-color: white;
+    display:flex;
+}
+input
+{
+    height:90%;
+    width:25%;
+    border:none;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: lightgray;
+    color:black
+}
+.inputDiv button
+{
+    height:50%;
+    width:8%;
+    background-color: lime;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.outerList
+{
+    height:78%;
+    width:100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+.outerList button
+{
+    background-color: red;
+}
+.outerList div
+{
+    font-size: 1.5rem;
+}
+.list
+{
+    height:20%;
+    width:98%;
+    margin:auto;
+    background-color:#0382c9;
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.delete
+{
+    height:50%;
+    width:4rem;
+    margin-top: 1rem;
+    float:right;
+}
+.Edit
+{
+    height:50%;
+    width:4rem;
+    margin-top: 1rem;
+    float:right;
+}
+.highLight
+{
+    background-color: green;
+}

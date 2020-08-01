@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TodoList</title>
+        <link rel="stylesheet" type="text/css" href="todo.css">
+    </head>
+    <body onload="ShowTask()">
+        <header>
+          <h1>Personal Shedule</h1>  
+        </header>
+        <div class="outerDiv">
+            <div class="inputDiv">
+                <input id="work"type="text" placeholder="Add Task here...">
+                <input type="date" id="date">
+                <input type="time" id="time" value="00:00">
+                <button id="AddTask">Add</button>
+            </div>
+            <div class="outerList">
+                <div class="list">
+                    <div>Satish</div>
+                    <div>date</div>
+                    <div>time</div>
+                    <button id="deleteTask" class="delete">delete</button>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
